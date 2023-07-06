@@ -1,0 +1,28 @@
+{
+  "name": "eat_india",
+  "version": "1.0.0",
+  "description": "react app using open source API ",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Manishh444/effective-goggles.git"
+  },
+  "author": "Manish & co.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manishh444/effective-goggles/issues"
+  },
+  "homepage": "https://github.com/Manishh444/effective-goggles#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
