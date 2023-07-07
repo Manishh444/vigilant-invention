@@ -15,10 +15,16 @@ const Body = () => {
         
     }
     return Restaurant?.length===0? ("Heloooo"):(
-    <div>{Restaurant.map((x)=>{
+        <>
+        <div>
+            <input>
+            </input>
+            <button>search</button>
+        </div>
+    <div className='bodyCard'>{Restaurant.map((x)=>{
         return(<Restaurantcard {...x.data} key={x.data.id} />)
         
-    })}</div>
+    })}</div></>
   )
 }
 

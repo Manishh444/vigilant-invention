@@ -1,4 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .bodyCard{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 20px 100px; */
+    justify-content: space-around;
+    /* align-items: center; */
+}
 .RestaurantCard{
     width: 250px;
-    border: 1px solid black;
+    margin: 10px 20px;
+    border-radius: 10px;
+
+    border: 1px solid rgb(229, 19, 96);
+}
+
+.RestaurantCard img{
+    width: 100%;
+    border-radius: 10px;
+
+    /* padding: 10px; */
+    /* border: 2px solid rgb(47, 88, 223); */
+}   
+
+/* ----------HEADER STYLE------------ */
+.Header{
+    display: flex;
+    border: 2px solid green;
+    justify-content: space-between;
+}
+.Header ul{
+    display: inline-flex;
+    list-style: none;
+}
+.Header ul li{
+    list-style: none;
+    padding-left: 20px;
 }
