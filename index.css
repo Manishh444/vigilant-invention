@@ -5,7 +5,7 @@
   .bodyCard{
     display: flex;
     flex-wrap: wrap;
-    /* margin: 20px 100px; */
+    margin: 20px 30px;
     justify-content: space-around;
     /* align-items: center; */
 }
@@ -24,6 +24,15 @@
     /* padding: 10px; */
     /* border: 2px solid rgb(47, 88, 223); */
 }   
+/* search bar */
+
+.searchBar{
+    display: flex;
+    margin: 20px 60px;
+    padding: 5px 5px;
+    border: 1px solid burlywood;
+    justify-content: left;
+}
 
 /* ----------HEADER STYLE------------ */
 .Header{
