@@ -8,12 +8,15 @@ import { createBrowserRouter, Outlet, RouterProvider} from "react-router-dom";
 import Contact from "./Components/Contact";
 import RestaurantMenu from "./Components/RestaurantMenu";
 import TestAPI from "./Components/testAPI";
-
+import UserContext from "./Components/UserContext";
 const App = ()=>{
+    const [user, setUser] = useState("manish")
     return(
         <div>
+            <UserContext.Provider value={{user}}>
             <Header/>
             <Outlet/>
+            </UserContext.Provider>
         </div>
     )
 }
